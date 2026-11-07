@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f3ec">
+  <meta name="description" content="Theo dõi tin logistics và thị trường kho tại Việt Nam và Trung Quốc, có nguồn và trạng thái xác minh.">
+  <title>Logistics Market Watch — Việt Nam × Trung Quốc</title>
+  <style>
+    :root{--ink:#202820;--muted:#66736a;--paper:#f4f3ec;--card:#fffefa;--line:#e0e4da;--green:#285c48;--green2:#39775c;--lime:#d8edaa;--amber:#8a5b13;--amber-bg:#fff3dc;--red:#9d4638;--red-bg:#fae8e3;--shadow:0 14px 34px #26372c0c;--r:22px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}.wrap{max-width:1200px;margin:auto;padding:22px}.bar{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:24px}.brand{display:flex;align-items:center;gap:11px;color:var(--ink);text-decoration:none;font-weight:800}.mark{display:grid;place-items:center;width:40px;height:40px;border-radius:14px;background:var(--green);color:white;font-size:20px}.nav{display:flex;gap:8px;align-items:center}.nav a{color:var(--muted);text-decoration:none;padding:9px 12px;border-radius:12px;font-size:13px}.nav a:hover,.nav a.current{background:#e8eee4;color:var(--green);font-weight:700}.hero{display:grid;grid-template-columns:1.4fr .7fr;gap:16px;align-items:stretch}.hero-main{padding:34px 30px;border-radius:28px;background:var(--green);color:white;min-height:280px;display:flex;flex-direction:column;justify-content:center}.eyebrow{font-size:11px;letter-spacing:.12em;font-weight:800;color:#dbebda}.hero h1{font-size:clamp(34px,5vw,58px);letter-spacing:-.055em;line-height:1.02;margin:15px 0}.hero p{max-width:680px;color:#e5eee4;margin:0;font-size:16px}.hero-side{background:#e8efdf;border-radius:28px;padding:24px;display:flex;flex-direction:column;justify-content:space-between}.kicker{color:var(--muted);font-size:11px;letter-spacing:.09em;font-weight:800}.hero-side h2{font-size:25px;line-height:1.15;letter-spacing:-.035em;margin:12px 0}.status{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:7px 11px;background:var(--amber-bg);color:var(--amber);font-size:12px;font-weight:800;width:max-content}.dot{width:8px;height:8px;border-radius:50%;background:#d5982e}.section{margin-top:24px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:12px}.section-head h2{font-size:20px;letter-spacing:-.03em;margin:0}.section-head p{font-size:12px;color:var(--muted);margin:0}.grid{display:grid;gap:12px}.stats{grid-template-columns:repeat(4,minmax(0,1fr))}.card{background:var(--card);border:1px solid #fff;border-radius:var(--r);padding:18px;box-shadow:var(--shadow);min-width:0}.label{font-size:11px;letter-spacing:.06em;color:var(--muted);font-weight:800}.value{font-size:21px;font-weight:800;letter-spacing:-.025em;margin:9px 0 2px}.sub{font-size:13px;color:var(--muted);margin:0}.twocol{grid-template-columns:1fr 1fr}.notice{display:flex;gap:12px;border-radius:17px;padding:15px 17px;background:var(--amber-bg);color:#72501c;font-size:13px}.notice b{color:#5f4114}.notice-icon{font-size:18px}.empty{padding:34px 20px;text-align:center;border:1px dashed #cbd3c7;border-radius:18px;background:#fbfaf5}.empty-icon{font-size:27px}.empty h3{font-size:18px;margin:9px 0 4px}.empty p{max-width:620px;margin:0 auto;color:var(--muted);font-size:13px}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.chip{border:1px solid var(--line);border-radius:99px;padding:6px 10px;color:#506155;background:#fafbf6;font-size:12px}.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.step{background:var(--card);border:1px solid white;border-radius:18px;padding:17px}.step-num{color:var(--green);font-size:12px;font-weight:900}.step h3{font-size:15px;margin:6px 0}.step p{font-size:13px;color:var(--muted);margin:0}.small-list{list-style:none;padding:0;margin:10px 0 0}.small-list li{padding:8px 0;border-bottom:1px solid var(--line);font-size:13px}.small-list li:last-child{border:0}.badge{display:inline-block;border-radius:99px;padding:4px 9px;background:#edf2e8;color:var(--green);font-size:11px;font-weight:800}.badge.bad{background:var(--red-bg);color:var(--red)}.foot{margin-top:26px;border-top:1px solid var(--line);padding:16px 0 28px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px}.foot a{color:var(--green)}
+    /* Language switch */
+    .lang{display:flex;gap:2px;background:#e8eee4;border-radius:12px;padding:3px;margin-left:6px}.lang button{border:0;background:none;padding:6px 11px;border-radius:9px;font:inherit;font-size:12px;font-weight:700;color:var(--muted);cursor:pointer}.lang button:hover{color:var(--green)}.lang button[aria-pressed="true"]{background:var(--green);color:#fff}.lang button:focus-visible{outline:2px solid var(--green2);outline-offset:2px}
+    /* Chinese typography: no negative tracking */
+    html[lang="zh-CN"] .hero h1,html[lang="zh-CN"] .hero-side h2,html[lang="zh-CN"] .section-head h2,html[lang="zh-CN"] .value,html[lang="zh-CN"] .card h2{letter-spacing:0}
+    html[lang="zh-CN"] .hero h1{line-height:1.2}
+    @media(max-width:850px){.hero{grid-template-columns:1fr}.hero-main{min-height:240px}.stats{grid-template-columns:1fr 1fr}}
+    @media(max-width:580px){.wrap{padding:12px}.bar{align-items:flex-start}.nav{gap:2px;flex-wrap:wrap;justify-content:flex-end}.nav a{padding:8px;font-size:11px}.lang{margin-left:2px}.hero-main{padding:25px 20px}.hero h1{font-size:39px}.hero p{font-size:14px}.stats,.twocol,.steps{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.card{padding:15px}.foot{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="bar">
+      <a class="brand" href="./"><span class="mark">✦</span><span>AI KHOA</span></a>
+      <div class="nav">
+        <div class="lang" role="group" aria-label="Ngôn ngữ / 语言"><button type="button" data-lang="vi" aria-pressed="true">VI</button><button type="button" data-lang="zh" aria-pressed="false">中文</button></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="title">
+        <div class="hero-main">
+          <span class="eyebrow" data-zh="LOGISTICS MARKET WATCH · 越南 × 中国">LOGISTICS MARKET WATCH · VIỆT NAM × TRUNG QUỐC</span>
+          <h1 id="title" data-zh="市场资讯，<br>附来源可查证。">Tin thị trường,<br>có nguồn để tra cứu.</h1>
+          <p data-zh="跟踪仓储、物流、港口和工业园区动态。每条资讯在进入报告前，都须具备来源链接、地理范围和核实标签。">Theo dõi kho bãi, logistics, cảng và khu công nghiệp. Mỗi tin cần có liên kết nguồn, phạm vi địa lý và nhãn xác minh trước khi xuất hiện trong báo cáo.</p>
+        </div>
+        <aside class="hero-side">
+          <div><span class="kicker" data-zh="数据状态">TRẠNG THÁI DỮ LIỆU</span><h2 data-zh="正在等待首份简报成功发送">Đang chờ bản tin đầu tiên được gửi thành công</h2><p class="sub" data-zh="本页不生成示例资讯。只有在 Hermes 定时任务生成带来源的报告后，才会显示文章。">Trang này không dựng tin mẫu. Chỉ hiển thị bài sau khi lịch Hermes tạo được báo cáo có nguồn.</p></div>
+          <span class="status"><span class="dot"></span> <span data-zh="尚无已发送的报告">Chưa có báo cáo đã gửi</span></span>
+        </aside>
+      </section>
+
+      <section class="section" aria-label="Cấu hình theo dõi" data-zh-label="跟踪配置">
+        <div class="grid stats">
+          <article class="card"><div class="label" data-zh="市场">THỊ TRƯỜNG</div><div class="value" data-zh="2 个国家">2 quốc gia</div><p class="sub" data-zh="越南 · 中国">Việt Nam · Trung Quốc</p></article>
+          <article class="card"><div class="label" data-zh="每日简报">BẢN TIN NGÀY</div><div class="value">07:00</div><p class="sub" data-zh="每天 · 越南时间">Mỗi ngày · giờ Việt Nam</p></article>
+          <article class="card"><div class="label" data-zh="周报">BÁO CÁO TUẦN</div><div class="value" data-zh="周日 · 19:00">Chủ nhật · 19:00</div><p class="sub" data-zh="通过 Lark 发送">Gửi qua Lark</p></article>
+          <article class="card"><div class="label" data-zh="HERMES 模型">MODEL HERMES</div><div class="value">Gemini 3.8 Flash</div><p class="sub" data-zh="免费额度 · 按项目限流">Free tier · giới hạn theo dự án</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head"><h2 data-zh="已核实的简报">Bản tin đã xác minh</h2><p data-zh="仅显示有报告和来源链接的数据">Chỉ hiển thị dữ liệu có báo cáo và liên kết nguồn</p></div>
+        <div class="empty"><div class="empty-icon">🗂️</div><h3 data-zh="暂无可显示的资讯">Chưa có tin để hiển thị</h3><p data-zh="最近一次运行未能生成报告。有真实报告后，此处将替换为资讯列表，包括来源、发布日期和影响分析。">Lượt chạy gần nhất chưa tạo được báo cáo. Khi có báo cáo thật, mục này sẽ thay bằng danh sách tin, nguồn, ngày đăng và phân tích tác động.</p><div class="chips" aria-label="Chủ đề theo dõi" data-zh-label="关注主题"><span class="chip" data-zh="冷库">Kho lạnh</span><span class="chip" data-zh="仓库租金">Giá thuê kho</span><span class="chip" data-zh="仓储供给">Nguồn cung kho</span><span class="chip" data-zh="工业园区">Khu công nghiệp</span><span class="chip" data-zh="港口周边仓库">Kho gần cảng</span><span class="chip" data-zh="物流扩张">Mở rộng logistics</span><span class="chip" data-zh="项目延期">Dự án trì hoãn</span></div></div>
+      </section>
+
+      <section class="section">
+        <div class="section-head"><h2 data-zh="Agent 每轮的处理方式">Cách Agent xử lý mỗi lượt</h2><p data-zh="已精简以节省 API 额度">Đã rút gọn để tiết kiệm hạn mức API</p></div>
+        <div class="steps">
+          <article class="step"><span class="step-num" data-zh="01 · 搜索">01 · TÌM</span><h3 data-zh="一次合并查询">Một truy vấn gộp</h3><p data-zh="一次调用同时搜索越南和中国。结果不足时也不重复查询。">Tìm cho cả Việt Nam và Trung Quốc trong một lần gọi. Không truy vấn lặp nếu kết quả chưa đủ.</p></article>
+          <article class="step"><span class="step-num" data-zh="02 · 核查">02 · KIỂM</span><h3 data-zh="只读必要的来源">Đọc nguồn cần thiết</h3><p data-zh="每日简报最多打开两个链接，周报最多三个。缺乏依据的资讯会明确标注。">Mở tối đa hai liên kết ở bản tin ngày hoặc ba ở báo cáo tuần. Tin thiếu căn cứ được đánh dấu rõ.</p></article>
+          <article class="step"><span class="step-num" data-zh="03 · 摘要">03 · TÓM TẮT</span><h3 data-zh="合并重复，说明影响">Gộp trùng, nêu tác động</h3><p data-zh="每天最多两件事，每周最多三件。区分事实与分析，不提供投资建议。">Tối đa hai sự kiện mỗi ngày, ba mỗi tuần. Phân biệt dữ kiện với phân tích và không tư vấn đầu tư.</p></article>
+        </div>
+      </section>
+
+      <section class="section grid twocol">
+        <article class="card"><div class="label" data-zh="模型连接状态">TÌNH TRẠNG KẾT NỐI MODEL</div><h2 style="font-size:18px;margin:8px 0" data-zh="已选用 Gemini 3.8 Flash">Gemini 3.8 Flash đang được chọn</h2><p class="sub" data-zh="测试显示，Gemini 2.5 Flash 对新用户不可用（404）。Gemini 3.8 Flash 触发了免费额度每分钟 5 次请求的速率限制（429），因此尚未确认成功发送。">Thử nghiệm cho thấy Gemini 2.5 Flash không khả dụng với người dùng mới (404). Gemini 3.8 Flash đã gặp giới hạn tốc độ miễn phí 5 yêu cầu/phút (429); vì thế chưa xác nhận được lượt gửi thành công.</p></article>
+        <article class="card"><div class="label" data-zh="来源规则">QUY TẮC NGUỒN</div><ul class="small-list"><li><span class="badge" data-zh="必须">Bắt buộc</span> <span data-zh="为每条资讯附上 URL 和日期。">Gắn URL và ngày cho từng tin.</span></li><li><span class="badge" data-zh="透明">Minh bạch</span> <span data-zh="若缺少地域信息，标注“范围不明”。">Ghi “Chưa rõ phạm vi” nếu thiếu địa bàn.</span></li><li><span class="badge bad" data-zh="不得断言">Không khẳng định</span> <span data-zh="未经核实的传闻。">Tin đồn chưa kiểm chứng.</span></li><li><span class="badge bad" data-zh="不得提供">Không đưa</span> <span data-zh="投资建议。">Lời khuyên đầu tư.</span></li></ul></article>
+      </section>
+
+      <div class="section notice"><span class="notice-icon">ⓘ</span><div data-zh="<b>GitHub Pages 页面是静态页面。</b> 本页不直接连接 Hermes 或 Lark，不读取 API key，也不会自动刷新。只有在生成真实报告后才会添加资讯数据。"><b>Trang GitHub Pages là trang tĩnh.</b> Trang không kết nối trực tiếp với Hermes hoặc Lark, không đọc API key và không tự làm mới. Chỉ thêm dữ liệu tin sau khi báo cáo có thật được tạo.</div></div>
+    </main>
+    <footer class="foot"><span>AI KHOA · Logistics Market Watch</span><span data-zh="状态更新：2026年11月7日">Cập nhật trạng thái: 07/11/2026</span></footer>
+  </div>
+
+  <script>
+  (function () {
+    var KEY = 'lw-lang';
+    var META = {
+      vi: { lang: 'vi', title: 'Logistics Market Watch — Việt Nam × Trung Quốc', desc: 'Theo dõi tin logistics và thị trường kho tại Việt Nam và Trung Quốc, có nguồn và trạng thái xác minh.' },
+      zh: { lang: 'zh-CN', title: 'Logistics Market Watch — 越南 × 中国', desc: '跟踪越南和中国的物流与仓储市场资讯，附来源和核实状态。' }
+    };
+    var texts = document.querySelectorAll('[data-zh]');
+    var labels = document.querySelectorAll('[data-zh-label]');
+    var buttons = document.querySelectorAll('.lang button');
+    var metaDesc = document.querySelector('meta[name="description"]');
+    var i;
+
+    // Remember the original Vietnamese so we can switch back.
+    for (i = 0; i < texts.length; i++) texts[i].setAttribute('data-vi', texts[i].innerHTML);
+    for (i = 0; i < labels.length; i++) labels[i].setAttribute('data-vi-label', labels[i].getAttribute('aria-label'));
+
+    function apply(code) {
+      var zh = code === 'zh', m = META[zh ? 'zh' : 'vi'];
+      document.documentElement.lang = m.lang;
+      document.title = m.title;
+      if (metaDesc) metaDesc.setAttribute('content', m.desc);
+      for (var a = 0; a < texts.length; a++) texts[a].innerHTML = texts[a].getAttribute(zh ? 'data-zh' : 'data-vi');
+      for (var b = 0; b < labels.length; b++) labels[b].setAttribute('aria-label', labels[b].getAttribute(zh ? 'data-zh-label' : 'data-vi-label'));
+      for (var c = 0; c < buttons.length; c++) buttons[c].setAttribute('aria-pressed', String(buttons[c].getAttribute('data-lang') === (zh ? 'zh' : 'vi')));
+    }
+
+    function save(code) { try { localStorage.setItem(KEY, code); } catch (e) {} }
+    function load() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+
+    for (i = 0; i < buttons.length; i++) {
+      buttons[i].addEventListener('click', function () {
+        var code = this.getAttribute('data-lang');
+        apply(code);
+        save(code);
+      });
+    }
+
+    if (load() === 'zh') apply('zh');
+  })();
+  </script>
+</body>
+</html>
